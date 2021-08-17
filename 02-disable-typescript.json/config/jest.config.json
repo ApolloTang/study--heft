@@ -7,5 +7,14 @@
     https://github.com/microsoft/rushstack/blob/master/apps/heft/UPGRADING.md#heft-0320
   */
 
-  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json"
+  "extends": "@rushstack/heft-jest-plugin/includes/jest-shared.config.json",
+
+  "transform": {
+    /* "\\.(ts|tsx)$": "../lib/exports/jest-build-transform.js", */
+    "\\.(ts|tsx)$": {"\\.[jt]sx?$": "babel-jest"},
+
+    /* "\\.(css|sass|scss)$": "../lib/exports/jest-identity-mock-transform.js", */
+
+    /* "\\.(aac|eot|gif|jpeg|jpg|m4a|mp3|mp4|oga|otf|png|svg|ttf|wav|webm|webp|woff|woff2)$": "../lib/exports/jest-string-mock-transform.js" */
+  },
  }

@@ -1,3 +1,6 @@
-Learning heft with official totorial: 
+This is an attempt to use babel-jest. I can't get it to work, got error message: 
+```
+TypeError: customTransformer.includes is not a function
+```
 
-[https://rushstack.io/pages/heft_tutorials/getting_started/](https://rushstack.io/pages/heft_tutorials/getting_started/)
+<img src="./doc/custom-transformer-includes-is-not-a-func.png" />
