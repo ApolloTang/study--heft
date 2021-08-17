@@ -2,7 +2,7 @@ According to this comment:
 
 [https://github.com/microsoft/rushstack/issues/2515#issuecomment-895595382](https://github.com/microsoft/rushstack/issues/2515#issuecomment-895595382)
 
-I can disable helf runining typescript.json.
+I can disable heft runining typescript.json.
 
 However, after disabling typescript.json, heft-jest no longer run because heft-jest required transpiler output. 
 
