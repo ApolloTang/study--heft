@@ -5,13 +5,20 @@
   "main": "lib/start.js",
   "typings": "lib/start.d.ts",
   "scripts": {
-    "build": "heft build --clean",
-    "start": "node lib/start.js"
+    "build": "heft clean && pnpm run babel-transpile",
+    "test": "pnpm run build && heft test",
+    "start": "node lib/start.js",
+    "XXbabel-transpile": "babel src -d lib -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
+    "babel-transpile": "babel src -d lib -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx"
   },
   "keywords": [],
   "author": "Apollo Tang",
   "license": "ISC",
   "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "@babel/preset-typescript": "^7.15.0",
     "@rushstack/eslint-config": "^2.4.0",
     "@rushstack/heft": "^0.36.2",
     "@rushstack/heft-jest-plugin": "^0.1.19",

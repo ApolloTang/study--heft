@@ -1,3 +1,3 @@
-Learning heft with official totorial: 
+heft-jest plug-in required source-map to run 
 
-[https://rushstack.io/pages/heft_tutorials/getting_started/](https://rushstack.io/pages/heft_tutorials/getting_started/)
+<img src="./doc/heft-jest-fail-bc-source-map-missing.png" />
