@@ -1,0 +1,19 @@
+{
+  "name": "study--tutorial--heft",
+  "version": "1.0.0",
+  "description": "A Heft tutorial project",
+  "main": "lib/start.js",
+  "typings": "lib/start.d.ts",
+  "scripts": {
+    "build": "heft build --clean",
+    "start": "node lib/start.js"
+  },
+  "keywords": [],
+  "author": "Apollo Tang",
+  "license": "ISC",
+  "devDependencies": {
+    "@rushstack/heft": "^0.36.2",
+    "@types/node": "16.6.1",
+    "typescript": "^4.3.5"
+  }
+}
