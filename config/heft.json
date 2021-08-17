@@ -149,6 +149,12 @@
     //   */
     //  // "options": { }
     // }
+
+    /*
+      'heft-jest' has been moved out of heft. It is now a plugin.
+      see breaking change:
+      https://github.com/microsoft/rushstack/blob/master/apps/heft/UPGRADING.md#heft-0320
+    */
     {
       "plugin": "@rushstack/heft-jest-plugin"
     }
