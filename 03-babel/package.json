@@ -9,7 +9,7 @@
     "test": "pnpm run build && heft test",
     "start": "node lib/start.js",
     "XXbabel-transpile": "babel src -d lib -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx,**/*.test.js,**/*.test.jsx,**/*.test.ts,**/*.test.tsx",
-    "babel-transpile": "babel src -d lib -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx"
+    "babel-transpile": "babel src -s true -d lib -x .tsx,.ts,.js,.jsx --copy-files --ignore **/*.d.ts,**/*.story.js,**/*.story.jsx,**/*.story.ts,**/*.story.tsx"
   },
   "keywords": [],
   "author": "Apollo Tang",
