@@ -18,4 +18,4 @@ This can be easily fix by configure babel to emit source map:
 
 ----
 
-However, after typescript.json is disable I am no sure how to run heft eslint task. 
+However, after typescript.json has been disabled I am no sure how to run heft eslint task. 
