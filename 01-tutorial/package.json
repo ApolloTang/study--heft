@@ -6,6 +6,7 @@
   "typings": "lib/start.d.ts",
   "scripts": {
     "build": "heft build --clean",
+    "build:watch": "heft build --clean --watch",
     "start": "node lib/start.js"
   },
   "keywords": [],

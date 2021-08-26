@@ -785,7 +785,7 @@ packages:
     engines: {node: '>= 8'}
     dependencies:
       '@nodelib/fs.scandir': registry.npmjs.org/@nodelib/fs.scandir/2.1.5
-      fastq: registry.npmjs.org/fastq/1.11.1
+      fastq: registry.npmjs.org/fastq/1.12.0
     dev: true
 
   registry.npmjs.org/@rushstack/eslint-config/2.4.0_eslint@7.32.0+typescript@4.3.5:
@@ -2690,10 +2690,10 @@ packages:
     version: 2.0.6
     dev: true
 
-  registry.npmjs.org/fastq/1.11.1:
-    resolution: {integrity: sha512-HOnr8Mc60eNYl1gzwp6r5RoUyAn5/glBolUzP/Ez6IFVPMPirxn/9phgL6zhOtaTy7ISwPvQ+wT+hfcRZh/bzw==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/fastq/-/fastq-1.11.1.tgz}
+  registry.npmjs.org/fastq/1.12.0:
+    resolution: {integrity: sha512-VNX0QkHK3RsXVKr9KrlUv/FoTa0NdbYoHHl7uXHv2rzyHSlxjdNAKug2twd9luJxpcyNeAgf5iPPMutJO67Dfg==, registry: https://registry.npmjs.com/, tarball: https://registry.npmjs.org/fastq/-/fastq-1.12.0.tgz}
     name: fastq
-    version: 1.11.1
+    version: 1.12.0
     dependencies:
       reusify: registry.npmjs.org/reusify/1.0.4
     dev: true
