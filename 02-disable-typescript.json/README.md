@@ -1,3 +1,5 @@
+### This is continue of study from [https://github.com/ApolloTang/study--heft/tree/main/01-tutorial](https://github.com/ApolloTang/study--heft/tree/main/01-tutorial) but with typescript disabled.
+
 According to this comment: 
 
 [https://github.com/microsoft/rushstack/issues/2515#issuecomment-895595382](https://github.com/microsoft/rushstack/issues/2515#issuecomment-895595382)
